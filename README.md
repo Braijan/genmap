@@ -16,6 +16,9 @@ A tool to automate Nmap scanning with customizable modes for CTF and Pentest. Ge
 
     ```bash
     cd genmap
+    python3 -m venv venv
+    . venv/bin/activate
+    pip install -r requirements.txt
     ```
 
 3. Make the script executable:
